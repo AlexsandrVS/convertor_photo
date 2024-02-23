@@ -39,6 +39,6 @@ def process_images(input_folder, output_folder):
                 # Save the modified image
                 modified_img.save(output_path)
 
-input_folder = "./ws_photos/"
-output_folder = "./final_photos/"
+input_folder = "./ws/"
+output_folder = "./fin/"
 process_images(input_folder, output_folder)
